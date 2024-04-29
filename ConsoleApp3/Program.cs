@@ -6,9 +6,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            
             double x = Convert.ToDouble(Console.ReadLine());
             double F = Math.Sin(x) - 2 * Math.Cos(x);
-            Console.WriteLine($"{x} {F}");
+            Console.WriteLine($" {F} {x}");
         }
     }
 }
